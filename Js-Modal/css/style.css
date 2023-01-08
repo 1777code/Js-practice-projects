@@ -1,0 +1,81 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.front-container {
+  padding: 0.1rem;
+  background-color: rgb(41, 55, 60);
+}
+.page-title {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(147, 176, 188);
+}
+.onModal-btn {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(1, 1, 29);
+  color: rgb(253, 195, 3);
+  display: block;
+}
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  display: none;
+}
+.modal-greeting-container {
+  width: 40%;
+  padding: 1rem;
+  background-color: rgb(28, 28, 74);
+  border-radius: 5px;
+  box-shadow: 0 0 9px 1px rgb(230, 230, 230);
+  position: relative;
+}
+.greeting-title {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: rgb(233, 230, 230);
+}
+.modal-btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: 1rem auto;
+  text-align: center;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(8, 42, 75);
+  color: rgb(233, 230, 230);
+}
+.close-btn-icon-div {
+  font-size: 1.7rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgb(229, 3, 3);
+}

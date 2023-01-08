@@ -1,0 +1,80 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    195deg,
+    rgba(4, 139, 154, 0.7),
+    rgba(15, 36, 118, 0.8),
+    rgba(39, 9, 97, 0.7)
+  );
+}
+.project-container {
+  width: 30%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: rgba(15, 36, 118, 0.1);
+}
+.project-container:hover {
+  box-shadow: 0 0 3px 2px whitesmoke;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+input {
+  width: 100%;
+  margin: 2px auto;
+  height: 40px;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(83, 80, 80);
+  color: rgb(254, 250, 250);
+  border-radius: 10px;
+}
+input:hover {
+  background-color: rgb(32, 32, 32);
+}
+.password {
+  width: 100%;
+  position: relative;
+}
+.password i {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: rgb(87, 169, 196);
+}
+.password i:hover {
+  cursor: pointer;
+  color: rgb(2, 182, 47);
+}
+button {
+  width: 75%;
+  margin: 0.5rem auto;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(27, 25, 63, 0.4);
+  color: rgb(254, 250, 250);
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(4, 73, 41);
+  color: rgb(252, 240, 1);
+  box-shadow: 0 0 3px 2px whitesmoke;
+}

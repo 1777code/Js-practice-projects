@@ -1,0 +1,44 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+    140deg,
+    rgba(10, 236, 127, 0.7),
+    rgba(1, 114, 242, 0.5),
+    rgba(176, 12, 252, 0.7)
+  );
+}
+.page-contanier {
+  width: 40%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+.page-text {
+  margin: 1rem 0;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: overline;
+  color: rgb(242, 242, 1);
+}
+#heading {
+  margin: 1rem 0;
+}
+.page-btn {
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(1, 1, 26);
+  color: rgb(207, 206, 206);
+}
